@@ -10,7 +10,7 @@ export const GitLogo = () => {
     return (
         <mesh
             onClick={() => {
-                window.open('https://github.com/victorBrylystyi?tab=repositories', '_blank')!.focus()
+                window.open('https://github.com/victorBrylystyi/explosion-effect', '_blank')!.focus()
             }}
         >
             <planeGeometry args={[2, 2]} />
