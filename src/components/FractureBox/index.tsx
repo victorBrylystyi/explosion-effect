@@ -269,7 +269,11 @@ export const FractureBox = () => {
             // onPointerDown={() => motionVal.set(1)}
             // onPointerUp={() => motionVal.set(0)}
         >
-            <primitive object={scene} />    
+            <group
+                onClick={(e) => e.stopPropagation()}
+            >
+                <primitive  object={scene} />   
+            </group>
             <GitLogo />
         </group>
     );
